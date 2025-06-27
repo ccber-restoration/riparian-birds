@@ -1,6 +1,8 @@
 # Repository overview
 
-## Google Drive Data
+This goal of this project is to research the relationship between arthropods found on vegetation and the bird assemblages using two riparian sites (Ellwood and Atascadero Creek).
+
+## Google Drive data
 Most data are currently stored in a Google Shared Drive. For each site, each batch of data (all point counts in a single day, or all arthropod surveys from a "round" of sampling) goes into a separate Google Sheet (copied & renamed from a template sheet set up for data entry). 
 
 Scans of data sheets (or field notebook pages) should also go into `scans` subfolders.
