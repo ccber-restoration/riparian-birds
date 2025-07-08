@@ -47,7 +47,8 @@ point_counts_all <- bind_rows(Ellwood_2025_06_18,
                               Ellwood_2025_07_02) %>% 
   #make column names easier to work with
   clean_names() %>% 
-  #extract time of day from the time columns (currently stored as date-time)
+  #extract time of day from the time columns 
+  #FIXME: time currently stored as date-time
   mutate(time_start = as_hms((time_start)),
          time_stop = as_hms(time_stop))
 
