@@ -1,4 +1,4 @@
-# Repository overview
+# Overview
 
 This goal of this project is to research the relationship between arthropods found on vegetation and the bird assemblages using two riparian sites (Ellwood and Atascadero Creek).
 
