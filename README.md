@@ -15,7 +15,7 @@ Subfolders are currently as follows:
 - `arthropod_surveys`
 - `survey_trees`
 
-The script(s) in the code folder of this GitHub repository import data from Google Sheets using the googlesheets4 package or the googledrive package for csv or Excel files. 
+The script(s) in the code folder of this GitHub repository import data from Google Sheets using the googlesheets4 package (or the googledrive package for csv or Excel files). 
 
 ## ArcGIS Online data
 
