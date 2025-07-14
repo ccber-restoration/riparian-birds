@@ -37,8 +37,6 @@ Ellwood_2025_07_02 <- read_sheet("https://docs.google.com/spreadsheets/d/12gD8q2
   fill(Site, aru_site_name, Date, Time_start, Time_stop)
 
 
-
-
 point_counts_all <- bind_rows(Ellwood_2025_06_18, 
                               Atascadero_2025_06_19,
                               Ellwood_2025_06_25,
@@ -51,6 +49,11 @@ point_counts_all <- bind_rows(Ellwood_2025_06_18,
   #FIXME: time currently stored as date-time
   mutate(time_start = as_hms((time_start)),
          time_stop = as_hms(time_stop))
+
+#write to csv with today's date
+
+write_csv(point_counts_all, file = "data/point_counts_compiled.csv")
+
 
 #filter by focal species
 point_counts_filtered <- point_counts_all %>% 
