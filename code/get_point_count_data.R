@@ -36,13 +36,17 @@ Ellwood_2025_07_02 <- read_sheet("https://docs.google.com/spreadsheets/d/12gD8q2
   #fill NA values for specific columns based on values above
   fill(Site, aru_site_name, Date, Time_start, Time_stop)
 
+Atascadero_2025_07_15 <- read_sheet("https://docs.google.com/spreadsheets/d/1Eegp06Z-SKHS1-gdJLb7sNjndbThpvNn5xA4WMcemaQ/edit?gid=0#gid=0") %>% 
+  #fill NA values for specific columns based on values above
+  fill(Site, aru_site_name, Date, Time_start, Time_stop)
 
 point_counts_all <- bind_rows(Ellwood_2025_06_18, 
                               Atascadero_2025_06_19,
                               Ellwood_2025_06_25,
                               Atascadero_2025_06_27,
                               Atascadero_2025_07_01,
-                              Ellwood_2025_07_02) %>% 
+                              Ellwood_2025_07_02,
+                              Atascadero_2025_07_15) %>% 
   #make column names easier to work with
   clean_names() %>% 
   #extract time of day from the time columns 
@@ -50,8 +54,7 @@ point_counts_all <- bind_rows(Ellwood_2025_06_18,
   mutate(time_start = as_hms((time_start)),
          time_stop = as_hms(time_stop))
 
-#write to csv with today's date
-
+#write to csv
 write_csv(point_counts_all, file = "data/point_counts_compiled.csv")
 
 
