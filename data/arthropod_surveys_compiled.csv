@@ -1,0 +1,279 @@
+site,date,survey_type,observer,temp_f,site_notes,time,survey_code,leaf_length,number_leaves,herbivory_percent,arthropod_common_name,length_mm,number,notes,image_filename_s
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T10:00:00Z,EW-09-1-A,2.8,50,0,"leafhoppers, planthoppers, cicadas",2,3,NA,NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T10:00:00Z,EW-09-1-A,2.8,50,0,flies,3,1,NA,NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T10:00:00Z,EW-09-1-A,2.8,50,0,aphids and psyllids,3,2,NA,NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T10:09:00Z,EW-09-1-B,3.5,50,0,unknown,1,4,NA,NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T10:09:00Z,EW-09-1-B,3.5,50,0,"leafhoppers, planthoppers, cicadas",3,4,NA,NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T10:09:00Z,EW-09-1-B,3.5,50,0,unknown,2,1,long antennae,NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T10:09:00Z,EW-09-1-B,3.5,50,0,spiders,3,1,green,NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T10:23:00Z,EW-09-1-C,2,50,0,spiders,3,1,greenish with brown spots,NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T10:23:00Z,EW-09-1-C,2,50,0,"leafhoppers, planthoppers, cicadas",2,1,NA,NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T10:28:00Z,EW-09-1-D,3.5,50,0,"leafhoppers, planthoppers, cicadas",NA,8,NA,NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T10:28:00Z,EW-09-1-D,3.5,50,0,flies,NA,1,NA,NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T10:28:00Z,EW-09-1-D,3.5,50,0,unknown,2,1,"long wings, black",NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T10:28:00Z,EW-09-1-D,3.5,50,0,unknown,1,3,"whitish, small",NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T10:28:00Z,EW-09-1-D,3.5,50,0,"leafhoppers, planthoppers, cicadas",3,1,"brown, cicada like",NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T10:37:00Z,EW-09-1-E,3.5,50,0,flies,10,1,possibly Asilidae,NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T10:37:00Z,EW-09-1-E,3.5,50,0,unknown,NA,3,NA,NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T10:37:00Z,EW-09-1-E,3.5,50,0,"leafhoppers, planthoppers, cicadas",NA,1,NA,NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T10:50:00Z,EW-08-2-A,10,50,10,aphids and psyllids,1,1,NA,NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T10:50:00Z,EW-08-2-A,10,50,0,aphids and psyllids,1,1,NA,NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T10:58:00Z,EW-08-2-B,15,50,0,aphids and psyllids,2,NA,NA,NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T10:58:00Z,EW-08-2-B,15,50,0,spiders,2,1,NA,NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T10:58:00Z,EW-08-2-B,15,50,0,unknown,20,1,NA,NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T10:58:00Z,EW-08-2-B,15,50,0,aphids and psyllids,2,3,NA,NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T10:58:00Z,EW-08-2-B,15,50,0,unknown,1,7,"gray, very small",NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T11:08:00Z,EW-08-2-C,13,50,0,spiders,3,1,"long legs, small",NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T11:08:00Z,EW-08-2-C,13,50,20,unknown,1,2,pale green/cream similar color to leaf,NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T11:08:00Z,EW-08-2-C,13,50,5,beetles,8,1,NA,NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T11:08:00Z,EW-08-2-C,13,50,0,aphids and psyllids,1,100,NA,NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T11:08:00Z,EW-08-2-C,13,50,0,unknown,1,2,"small, black",NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T11:22:00Z,EW-08-2-D,20,50,0,aphids and psyllids,2,3,"small, brown",NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T11:29:00Z,EW-08-2-E,15,50,5,aphids and psyllids,2,10,lerps,NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T11:39:00Z,EW-01-3-A,10,50,0,"leafhoppers, planthoppers, cicadas",2,4,"small, brown",NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T11:39:00Z,EW-01-3-A,10,50,0,spiders,2,1,"small, black",NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T11:39:00Z,EW-01-3-A,10,50,0,unknown,3,1,"spiky, blue/green",NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T11:50:00Z,EW-01-3-B,10,50,0,none,NA,1,NA,NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T11:50:00Z,EW-01-3-B,10,50,0,spiders,1,1,"small, black",NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T11:50:00Z,EW-01-3-B,10,50,0,unknown,2,8,"small, brown, some spiky",NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T11:59:00Z,EW-01-3-C,10,50,0,unknown,1,1,"small, black, flew away",NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T11:59:00Z,EW-01-3-C,10,50,0,unknown,1,6,"small, brown",NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T11:59:00Z,EW-01-3-C,10,50,0,spiders,1,1,"small, brown",NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T11:59:00Z,EW-01-3-C,10,50,0,unknown,3,3,blackish/white spiky,NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T12:05:00Z,EW-01-3-D,10,50,0,"leafhoppers, planthoppers, cicadas",6,1,blue with black stripes,NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T12:05:00Z,EW-01-3-D,10,50,0,unknown,1,7,"small, black",NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T12:05:00Z,EW-01-3-D,10,50,0,unknown,2,1,"small, spiky",NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T12:05:00Z,EW-01-3-D,10,50,0,beetles,2,1,"small, yellow and black",NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T12:05:00Z,EW-01-3-D,10,50,0,"leafhoppers, planthoppers, cicadas",2,5,"small, brown",NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T12:16:00Z,EW-01-3-E,5,50,0,beetles,3,1,cream with black and gold spots,NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T12:16:00Z,EW-01-3-E,5,50,0,spiders,3,1,black with web between leaves,NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T12:16:00Z,EW-01-3-E,5,50,0,unknown,2,1,"small, brown",NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T12:34:00Z,EW-03-1-A,10,50,0,unknown,1,6,"small brown, scale insects (?)",NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T12:41:00Z,EW-03-1-B,9,50,0,aphids and psyllids,1,1,NA,NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T12:41:00Z,EW-03-1-B,9,50,0,aphids and psyllids,3,10,"lerps. Black, dead?",NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T12:48:00Z,EW-03-1-C,9,50,0,spiders,2,1,"small, pale",NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T12:48:00Z,EW-03-1-C,9,50,0,aphids and psyllids,NA,1,NA,NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T12:48:00Z,EW-03-1-C,9,50,0,"leafhoppers, planthoppers, cicadas",3,1,"small, whitish",NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T12:48:00Z,EW-03-1-C,9,50,0,unknown,2,1,"small, long legged, tan color",NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T12:48:00Z,EW-03-1-C,9,50,0,unknown,2,1,"small, bronze brown color",NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T12:56:00Z,EW-03-1-D,7.5,50,0,unknown,NA,6,NA,NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T12:56:00Z,EW-03-1-D,7.5,50,0,unknown,2,2,"small, bronze, long antennae",NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T12:56:00Z,EW-03-1-D,7.5,50,0,aphids and psyllids,2,10,lerps,NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T01:03:00Z,EW-03-1-E,13,50,0,spiders,4,1,"brown, web on leaf",NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T01:03:00Z,EW-03-1-E,13,50,0,unknown,2,3,brown,NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T01:03:00Z,EW-03-1-E,13,50,0,aphids and psyllids,1,25,white with black,NA
+Ellwood,2025-06-18T00:00:00Z,visual,Santiago,71,NA,1899-12-30T01:03:00Z,EW-03-1-E,13,50,0,unknown,5,1,yellow + black clear wings,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T10:05:00Z,EW-03-2-A,12,50,0,spiders,3,1,Brown,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T10:05:00Z,EW-03-2-A,12,50,0,unknown,1,5,"small, beige, long winged, clear wings",NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T10:11:00Z,EW-03-2-B,13,50,0,unknown,1,5,"small, beige, long winged, clear wings",NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T10:11:00Z,EW-03-2-B,13,50,0,unknown,3,2,"small, beige, spiky, no wings",NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T10:11:00Z,EW-03-2-B,13,50,0,aphids and psyllids,NA,4,NA,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T10:11:00Z,EW-03-2-B,13,50,0,unknown,2,1,"small, beige, black. Spotted wings",NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T10:20:00Z,EW-03-2-C,12,50,0,beetles,3,1,"small, black",NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T10:20:00Z,EW-03-2-C,12,50,0,unknown,1,1,"small, black beady eyes, cream",NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T10:20:00Z,EW-03-2-C,12,50,0,unknown,1,2,"small, beige, long clear wings",NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T10:33:00Z,EW-03-2-D,10,50,0,unknown,1,1,leafhopper-like. Wings folded tent-like,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T10:33:00Z,EW-03-2-D,10,50,0,unknown,1,1,NA,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T10:33:00Z,EW-03-2-D,10,50,0,unknown,1,2,aphids?,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T10:41:00Z,EW-03-2-E,10,50,5,spiders,3,1,"brown, bold white markings",NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T10:41:00Z,EW-03-2-E,10,50,5,unknown,1,2,NA,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T10:41:00Z,EW-03-2-E,10,50,5,unknown,1,1,patterned long brown wings,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T10:49:00Z,EW-03-3-A,15,50,0,flies,5,NA,brown/tan,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T10:49:00Z,EW-03-3-A,15,50,0,flies,2,NA,"small, black",NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T10:49:00Z,EW-03-3-A,15,50,0,spiders,3,1,"pale, web on leaf",NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T10:49:00Z,EW-03-3-A,15,50,0,aphids and psyllids,1,2,NA,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T10:58:00Z,EW-03-3-B,13,50,0,beetles,3,2,NA,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T10:58:00Z,EW-03-3-B,13,50,0,beetles,1,1,NA,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T10:58:00Z,EW-03-3-B,13,50,0,unknown,1,NA,"leafhopper-like, pale yellow",NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T10:58:00Z,EW-03-3-B,13,50,0,unknown,1,2,"Blackish, clear wings",NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T11:07:00Z,EW-03-3-C,13,50,0,caterpillars,10,1,"orange head, dark green body",NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T11:07:00Z,EW-03-3-C,13,50,0,beetles,3,1,black,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T11:07:00Z,EW-03-3-C,13,50,0,unknown,1,7,NA,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T11:14:00Z,EW-03-3-D,9,50,0,unknown,1,NA,NA,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T11:14:00Z,EW-03-3-D,9,50,0,aphids and psyllids,NA,16,NA,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T11:14:00Z,EW-03-3-D,9,50,0,beetles,1,1,NA,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T11:14:00Z,EW-03-3-D,9,50,0,beetles,2,5,NA,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T11:14:00Z,EW-03-3-D,9,50,0,unknown,NA,NA,"long antennae, pale, long wings",NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T11:14:00Z,EW-03-3-D,9,50,0,unknown,NA,NA,NA,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T11:14:00Z,EW-03-3-D,9,50,0,unknown,1,7,"blue/gray, in group",NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T11:30:00Z,EW-03-3-E,10,50,0,aphids and psyllids,1,10,"pale white, blueish",NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T11:30:00Z,EW-03-3-E,10,50,0,flies,1,1,black,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T11:30:00Z,EW-03-3-E,10,50,0,unknown,1,2,"tiny, purplish",NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T11:53:00Z,EW-01-1-A,9,50,0,"leafhoppers, planthoppers, cicadas",5,2,pale beige/greenish,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T11:53:00Z,EW-01-1-A,9,50,0,unknown,1,1,"tiny, long winged, spread wings",NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T11:53:00Z,EW-01-1-A,9,50,0,spiders,3,1,pale greenish,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T11:53:00Z,EW-01-1-A,9,50,0,flies,1,2,NA,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T11:53:00Z,EW-01-1-A,9,50,0,unknown,1,5,NA,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T12:09:00Z,EW-01-1-B,6,50,5,unknown,1,6,NA,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T12:09:00Z,EW-01-1-B,6,50,0,spiders,1,1,NA,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T12:15:00Z,EW-01-1-C,20,50,0,flies,6,1,NA,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T12:15:00Z,EW-01-1-C,20,50,0,flies,2,2,NA,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T12:15:00Z,EW-01-1-C,20,50,0,unknown,1,1,"spread wings, black and white body",NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T12:21:00Z,EW-01-1-D,15,50,NA,NA,2,3,NA,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T12:21:00Z,EW-01-1-D,15,50,NA,aphids and psyllids,NA,3,pale green,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T12:21:00Z,EW-01-1-D,15,50,NA,unknown,1,3,pale greenish. Brown clear wigs folded,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T12:33:00Z,EW-01-1-E,12,50,NA,unknown,1,10,pale brownish-tan. Clear wings,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T12:33:00Z,EW-01-1-E,12,50,NA,unknown,NA,3,"tiny, black",NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T12:33:00Z,EW-01-1-E,12,50,NA,unknown,1,1,NA,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T12:33:00Z,EW-01-1-E,12,50,NA,spiders,2,1,NA,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T12:42:00Z,EW-01-2-A,6.5,50,5,unknown,1,NA,NA,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T12:42:00Z,EW-01-2-A,6.5,50,0,unknown,1,NA,"white, wispy, wings present",NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T12:42:00Z,EW-01-2-A,6.5,50,0,unknown,1,1,"pale green, long legs",NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T12:50:00Z,EW-01-2-B,7,50,5,caterpillars,3,1,tiny green inchworm,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T12:55:00Z,EW-01-2-C,8,50,5,beetles,4,1,black,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T12:55:00Z,EW-01-2-C,8,50,0,aphids and psyllids,2,1,"wispy, white, long legged",NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T01:04:00Z,EW-01-2-D,10,50,0,flies,5,1,yellowish,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T01:04:00Z,EW-01-2-D,10,50,0,flies,1,1,black,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T01:04:00Z,EW-01-2-D,10,50,0,unknown,1,1,NA,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T01:04:00Z,EW-01-2-D,10,50,0,flies,10,1,pale brown/yellowish,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T01:09:00Z,EW-01-2-E,13,50,0,unknown,1,2,crane fly,NA
+Ellwood,2025-06-20T00:00:00Z,Visual,Santiago,65,"low wind, breezy, sunny, no clouds",1899-12-30T01:09:00Z,EW-01-2-E,13,50,0,unknown,3,1,"greenish, black spots, no wings",NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T11:44:00Z,EW-09-3-A,2.5,50,0,aphids and psyllids,1,6,NA,NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T11:44:00Z,EW-09-3-A,2.5,50,0,unknown,1,6,"short body, long wings, beige",NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T11:44:00Z,EW-09-3-A,2.5,50,0,unknown,2,1,"green, long wings and body",NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T12:00:00Z,EW-09-3-B,1,50,0,aphids and psyllids,1,10,NA,NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T12:00:00Z,EW-09-3-B,1,50,0,bees and wasps,3,1,"tiny, black, wasp like",NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T12:13:00Z,EW-09-3-C,3.4,50,0,aphids and psyllids,1,15,NA,NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T12:13:00Z,EW-09-3-C,3.4,50,0,unknown,1,1,"black with black and white abdomen, spread wings",NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T12:13:00Z,EW-09-3-C,3.4,50,0,spiders,3,1,NA,NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T12:13:00Z,EW-09-3-C,3.4,50,0,ants,4,1,NA,NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T12:13:00Z,EW-09-3-C,3.4,50,0,flies,3,1,"tiny black, reddish eyes",NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T12:31:00Z,EW-09-3-D,3,50,0,spiders,3,1,NA,NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T12:31:00Z,EW-09-3-D,3,50,0,spiders,2,1,NA,NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T12:31:00Z,EW-09-3-D,3,NA,0,unknown,1,5,NA,NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T12:37:00Z,EW-09-3-E,2.5,NA,0,NA,1,9,NA,NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T12:43:00Z,EW-09-2-A,13,NA,5,"leafhoppers, planthoppers, cicadas",2,1,orange-red. Jumped very quickly,NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T12:43:00Z,EW-09-2-A,13,NA,5,unknown,2,4,"small, black, reddish eyes",NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T12:43:00Z,EW-09-2-A,13,NA,5,unknown,1,1,"long iridescent wings, black body",NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T12:52:00Z,EW-09-2-B,8,NA,5,unknown,2,2,"tiny, black",NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T12:52:00Z,EW-09-2-B,8,NA,5,unknown,2,1,reddish-orange,NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T01:00:00Z,EW-09-2-C,8,NA,30,beetles,3,31,NA,NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T01:00:00Z,EW-09-2-C,8,NA,30,beetles,5,1,NA,NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T01:00:00Z,EW-09-2-C,8,NA,30,bees and wasps,2,3,"tiny, black",NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T01:09:00Z,EW-09-2-D,9,NA,50,unknown,2,1,"tiny, black",NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T01:09:00Z,EW-09-2-D,9,NA,50,spiders,3,1,"brown, pale",NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T01:14:00Z,EW-09-2-E,7,NA,10,"leafhoppers, planthoppers, cicadas",2,1,NA,NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T01:14:00Z,EW-09-2-E,7,NA,10,unknown,2,1,NA,NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T01:23:00Z,EW-08-1-A,15,NA,5,beetles,8,1,NA,NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T01:28:00Z,EW-08-1-B,10,NA,10,beetles,8,1,NA,NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T01:28:00Z,EW-08-1-B,10,NA,10,unknown,2,65,"small, brown, stuck onto leaves",NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T01:28:00Z,EW-08-1-B,10,NA,10,unknown,2,2,"small, clear winged, leafhopper like",NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T01:36:00Z,EW-08-1-C,22,NA,10,unknown,1,1,"small, black, long winged",NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T01:36:00Z,EW-08-1-C,22,NA,10,"leafhoppers, planthoppers, cicadas",2,1,"small, orange",NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T01:45:00Z,EW-08-1-D,30,NA,10,NA,1,3,NA,NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T01:45:00Z,EW-08-1-D,30,NA,10,beetles,7,7,NA,NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T01:45:00Z,EW-08-1-D,30,NA,10,unknown,1,1,"small, black",NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T01:45:00Z,EW-08-1-D,30,NA,10,unknown,3,1,"beige, short body, tail-like projection",NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T01:53:00Z,EW-01-3-E,4,NA,10,NA,1,1,spotted wings,NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T01:53:00Z,EW-01-3-E,4,NA,10,NA,2,2,"greenish body, clear wings",NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T01:53:00Z,EW-01-3-E,4,NA,10,beetles,6,1,NA,NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T01:53:00Z,EW-01-3-E,4,NA,10,unknown,2,6,"small, brown, crusted onto leaf",NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T02:06:00Z,EW-08-3-A,8.5,NA,10,caterpillars,10,1,blue-gray inchworm,NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T02:06:00Z,EW-08-3-A,8.5,NA,10,unknown,1,3,"tiny, black, spread wings",NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T02:06:00Z,EW-08-3-A,8.5,NA,10,NA,2,7,NA,NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T02:06:00Z,EW-08-3-A,8.5,NA,10,unknown,5,1,"green, diamond shaped",NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T02:14:00Z,EW-08-3-B,15,NA,5,beetles,7,4,NA,NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T02:19:00Z,EW-08-3-C,12,NA,0,caterpillars,5,1,yellow-brown inchworm,NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T02:19:00Z,EW-08-3-C,12,NA,0,NA,2,2,NA,NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T02:19:00Z,EW-08-3-C,12,NA,0,unknown,1,2,"black, spread wings, stuck to leaves",NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T02:25:00Z,EW-08-3-D,9.5,NA,0,aphids and psyllids,2,50,"small, brown, crusted onto leaves",NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T02:25:00Z,EW-08-3-D,9.5,NA,0,unknown,1,1,"small, black, short body",NA
+Ellwood,2025-06-21T00:00:00Z,visual,Santiago,67,"sunny day, breeze, no clouds",1899-12-30T02:30:00Z,EW-08-3-E,3,NA,0,NA,2,8,NA,NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T10:15:00Z,AC-12-1-A,8.7,50,3,ants,2,4,NA,NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T10:25:00Z,AC-12-1-B,3.5,50,1,unknown,2,1,"brow, long translucent wings",NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T10:25:00Z,AC-12-1-B,3.5,50,1,spiders,2,1,NA,NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T10:35:00Z,AC-12-1-C,6.5,50,2,ants,2,12,NA,NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T10:35:00Z,AC-12-1-C,6.5,50,2,spiders,2,1,NA,NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T10:35:00Z,AC-12-1-C,6.5,50,2,"leafhoppers, planthoppers, cicadas",3,1,NA,NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T10:46:00Z,AC-12-1-D,7,50,1,NA,NA,NA,NA,NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T10:50:00Z,AC-12-1-E,4.5,50,1,NA,NA,NA,NA,NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T11:00:00Z,AC-12-2-A,5.5,50,0,spiders,3,1,pale green with brown markings,NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T11:00:00Z,AC-12-2-A,5.5,50,0,"leafhoppers, planthoppers, cicadas",2,1,"Green, mottled brown spots",NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T11:11:00Z,AC-12-2-B,3,50,0,bees and wasps,3,1,NA,NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T11:11:00Z,AC-12-2-B,3,50,0,"leafhoppers, planthoppers, cicadas",3,1,NA,NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T11:11:00Z,AC-12-2-B,3,50,0,spiders,5,1,"jumping spider, large abdomen",NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T11:22:00Z,AC-12-2-C,6.3,50,2,beetles,3,1,"larval, pale beige",NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T11:30:00Z,AC-12-2-D,3.5,50,0,spiders,2,1,NA,NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T11:30:00Z,AC-12-2-D,3.5,50,0,"leafhoppers, planthoppers, cicadas",4,1,brown with Stub-like wings,NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T11:30:00Z,AC-12-2-D,3.5,50,0,"leafhoppers, planthoppers, cicadas",2,1,white,NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T11:38:00Z,AC-12-2-E,10,50,4,beetles,6,1,black with bronze sheen,NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T11:47:00Z,AC-12-3-A,8,50,1,NA,NA,NA,NA,NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T11:55:00Z,AC-12-3-B,4,50,1,NA,NA,NA,NA,NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T11:58:00Z,AC-12-3-C,10,50,1,flies,5,1,NA,NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T12:05:00Z,AC-12-3-D,7,50,1,NA,NA,NA,NA,NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T12:11:00Z,AC-12-3-E,9.5,50,2,NA,NA,NA,NA,NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T01:04:00Z,AC-10-1-A,10,50,0,flies,5,1,NA,NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T01:08:00Z,AC-10-1-B,10,50,1,lacewings,6,1,"Light green body, long clear wings",NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T01:08:00Z,AC-10-1-B,10,50,1,spiders,3,2,NA,NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T01:14:00Z,AC-10-1-C,8,50,2,spiders,2,1,NA,NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T01:20:00Z,AC-10-1-D,15,50,0,spiders,3,1,NA,NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T01:25:00Z,AC-10-1-E,5.5,50,2,NA,NA,NA,NA,NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T01:35:00Z,AC-10-3-A,8,50,0,spiders,2,1,NA,NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T01:40:00Z,AC-10-3-B,4.5,50,2,spiders,2,1,NA,NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T01:45:00Z,AC-10-3-C,14,50,2,NA,NA,NA,NA,NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T01:44:00Z,AC-10-3-D,9,50,1,flies,3,1,NA,NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T01:54:00Z,AC-10-3-E,7.5,50,1,caterpillars,13,1,"inchworm-like, green",NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T01:54:00Z,AC-10-3-E,7.5,50,1,spiders,2,2,NA,NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T02:00:00Z,AC-10-2-A,4.5,50,0,spiders,4,1,NA,NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T02:00:00Z,AC-10-2-A,4.5,50,0,"leafhoppers, planthoppers, cicadas",3,1,NA,NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T02:05:00Z,AC-10-2-B,8,50,0,beetles,2,1,NA,NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T02:10:00Z,AC-10-2-C,7.5,50,0,"leafhoppers, planthoppers, cicadas",4,1,bright green + black,NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T02:10:00Z,AC-10-2-C,7.5,50,0,"leafhoppers, planthoppers, cicadas",5,1,pale green,NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T02:10:00Z,AC-10-2-C,7.5,50,0,spiders,4,1,NA,NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T02:18:00Z,AC-10-2-D,5,50,0,beetles,3,1,NA,NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T02:18:00Z,AC-10-2-D,5,50,0,"leafhoppers, planthoppers, cicadas",4,2,birght green + black,NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T02:18:00Z,AC-10-2-D,5,50,0,unknown,3,1,"pale + black, flew away",NA
+Atascadero,2025-06-23T00:00:00Z,Visual,Santiago,68,"Sunny, no clouds, light breeze",1899-12-30T02:23:00Z,AC-10-2-E,6.5,50,1,NA,NA,NA,NA,NA
+Atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T08:40:00Z,AC-02-2-A,4,50,0,spiders,4,1,NA,NA
+Atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T08:48:00Z,AC-02-2-B,8,50,0,caterpillars,7,1,"inchworm-like, pale green/yellow",NA
+Atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T08:53:00Z,AC-02-2-C,9.5,50,3,NA,NA,NA,NA,NA
+Atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T08:58:00Z,AC-02-2-D,5,50,0,spiders,4,1,NA,NA
+Atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T08:58:00Z,AC-02-2-D,5,50,0,Isopods,10,1,pill bug,NA
+Atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T08:58:00Z,AC-02-2-D,5,50,0,spiders,5,1,NA,NA
+Atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T08:58:00Z,AC-02-2-D,5,50,0,mites,2,1,Red coloration,NA
+Atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T09:05:00Z,AC-02-2-E,5,50,0,mites,2,1,red coloration,NA
+Atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T09:05:00Z,AC-02-2-E,5,50,0,spiders,2,1,NA,NA
+Atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T09:05:00Z,AC-02-2-E,5,50,0,beetles,2,1,NA,NA
+Atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T09:11:00Z,AC-02-3-A,9.5,50,1,caterpillars,20,1,"light green, inchworm-like",NA
+Atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T09:17:00Z,AC-02-3-B,10,50,3,NA,NA,NA,NA,NA
+Atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T09:21:00Z,AC-02-3-C,6,50,1,spiders,4,1,NA,NA
+Atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T09:21:00Z,AC-02-3-C,6,50,1,spiders,2,1,NA,NA
+Atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T09:21:00Z,AC-02-3-C,6,50,1,"leafhoppers, planthoppers, cicadas",4,1,NA,NA
+Atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T09:26:00Z,AC-02-3-D,14,50,4,mites,2,3,NA,NA
+Atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T09:26:00Z,AC-02-3-D,14,50,4,"leafhoppers, planthoppers, cicadas",2,1,NA,NA
+Atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T09:33:00Z,AC-02-3-E,8,50,1,lacewings,5,1,NA,NA
+Atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T09:38:00Z,AC-02-1-A,5,50,1,spiders,4,1,NA,NA
+Atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T09:42:00Z,AC-02-1-B,10,50,5,beetles,5,1,larvae,NA
+Atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T09:42:00Z,AC-02-1-B,10,50,5,caterpillars,5,1,"pale, almost beige",NA
+Atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T09:49:00Z,AC-02-1-C,9.5,50,5,NA,NA,NA,NA,NA
+Atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T09:53:00Z,AC-02-1-D,4.5,50,0,lacewings,4,1,"Brown body, clear wings with brown venation",NA
+atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T09:53:00Z,AC-02-1-D,4.5,50,0,spiders,4,1,NA,NA
+atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T09:53:00Z,AC-02-1-D,4.5,50,0,mites,3,1,NA,NA
+atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T09:53:00Z,AC-02-1-D,4.5,50,0,"leafhoppers, planthoppers, cicadas",3,1,NA,NA
+atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T10:00:00Z,AC-02-1-E,9,50,10,spiders,4,1,NA,NA
+atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T10:00:00Z,AC-02-1-E,9,50,10,mites,2,1,NA,NA
+atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T10:11:00Z,AC-05-2-A,4,50,0,none,NA,NA,NA,NA
+atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T10:15:00Z,AC-05-2-B,4,50,0,spiders,2,1,NA,NA
+atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T10:19:00Z,AC-05-2-C,4.5,50,1,unknown,3,1,"white, moth like, black eyes",NA
+atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T10:26:00Z,AC-05-2-D,1.5,50,2,none,NA,NA,NA,NA
+atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T10:34:00Z,AC-05-2-E,9,50,0,mites,2,1,NA,NA
+atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T10:34:00Z,AC-05-2-E,9,50,0,"leafhoppers, planthoppers, cicadas",3,1,NA,NA
+atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T10:34:00Z,AC-05-2-E,9,50,0,spiders,3,1,NA,NA
+atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T10:41:00Z,AC-05-1-A,6,50,0,none,NA,NA,NA,NA
+atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T10:46:00Z,AC-05-1-B,4,50,1,"leafhoppers, planthoppers, cicadas",3,1,NA,NA
+atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T10:46:00Z,AC-05-1-B,4,50,1,mites,2,1,NA,NA
+atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T10:50:00Z,AC-05-1-C,7,50,0,"leafhoppers, planthoppers, cicadas",4,1,NA,NA
+atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T10:50:00Z,AC-05-1-C,7,50,0,unknown,2,1,"patterned wings, beige/dark brown spots, long wings",NA
+atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T10:59:00Z,AC-05-1-D,5.5,50,1,spiders,4,1,NA,NA
+atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T10:59:00Z,AC-05-1-D,5.5,50,1,mites,2,1,NA,NA
+atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T10:59:00Z,AC-05-1-D,5.5,50,1,"leafhoppers, planthoppers, cicadas",3,1,NA,NA
+atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T10:59:00Z,AC-05-1-D,5.5,50,1,spiders,5,1,NA,NA
+atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T11:03:00Z,AC-05-1-E,9,50,3,beetles,5,2,NA,NA
+atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T11:03:00Z,AC-05-1-E,9,50,3,mites,2,1,NA,NA
+atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T11:03:00Z,AC-05-1-E,9,50,3,aphids and psyllids,2,1,NA,NA
+atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T11:03:00Z,AC-05-1-E,9,50,3,"leafhoppers, planthoppers, cicadas",3,1,NA,NA
+atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T11:10:00Z,AC-05-3-A,3.5,50,0,spiders,2,1,NA,NA
+atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T11:14:00Z,AC-05-3-B,2.5,50,0,none,NA,NA,NA,NA
+atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T11:17:00Z,AC-05-3-C,4,50,1,spiders,2,1,NA,NA
+atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T11:20:00Z,AC-05-3-D,6,50,2,none,NA,NA,NA,NA
+atascadero,2025-06-24T00:00:00Z,visual,Santiago + Olly,61,"overcast, cloud cover 100%, no precipitation",1899-12-30T11:25:00Z,AC-05-3-E,8,50,2,none,NA,NA,NA,NA

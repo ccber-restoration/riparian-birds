@@ -1,23 +1,25 @@
-#packages
-
-library(tidyverse)
-
-#data cleaning
-#see https://cran.r-project.org/web/packages/janitor/vignettes/janitor.html#do-those-dataframes-actually-contain-the-same-columns
-library(janitor)
-
-# import data from Google Sheets
-library(googlesheets4)
-
-#deal with dates and times
-library(lubridate)
-library(hms)
+# Set up ----
+#source script to load packages
+source("code/0_libraries.R")
 
 #read in individual sheets (1 per site and round of surveying)
 
-EW_arthropods_1 <- read_sheet("https://docs.google.com/spreadsheets/d/11LvIr1BTAlVAseYOcaFbqqcSU8jbIsr6Ugh2mGN4qKg/edit?gid=0#gid=0")
+arthropods_1_EW <- read_sheet("https://docs.google.com/spreadsheets/d/11LvIr1BTAlVAseYOcaFbqqcSU8jbIsr6Ugh2mGN4qKg/edit?gid=0#gid=0") %>% 
+  clean_names() %>% 
+  #fill NA values for specific columns based on values above
+  fill(site, date, survey_type, observer, temp_f, site_notes, time, survey_code, leaf_length, number_leaves, herbivory_percent) %>% 
+  #problems caused by data in wrong column
+  mutate(number_leaves = as.numeric(number_leaves),
+         herbivory_percent = as.numeric(herbivory_percent))
 
-AC_arthropods_1 <- read_sheet("https://docs.google.com/spreadsheets/d/1dcgOch8yOuFYNgQzJMgnAntAETPNBd0L83tfDUcvXjg/edit?gid=0#gid=0")
+arthropods_1_AC <- read_sheet("https://docs.google.com/spreadsheets/d/1dcgOch8yOuFYNgQzJMgnAntAETPNBd0L83tfDUcvXjg/edit?gid=0#gid=0") %>% 
+  clean_names() %>% 
+  #fill NA values for specific columns based on values above
+  fill(site, date, survey_type, observer, temp_f, site_notes, time, survey_code, leaf_length, number_leaves, herbivory_percent)
 
-arthropod_surveys <- bind_rows(EW_arthropods_1, 
-                               AC_arthropods_1)
+#combine data sets
+arthropod_surveys <- bind_rows(arthropods_1_EW, 
+                               arthropods_1_AC)
+
+#write to file
+write_csv(arthropod_surveys, "data/arthropod_surveys_compiled.csv")
