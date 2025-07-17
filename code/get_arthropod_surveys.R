@@ -23,3 +23,10 @@ arthropod_surveys <- bind_rows(arthropods_1_EW,
 
 #write to file
 write_csv(arthropod_surveys, "data/arthropod_surveys_compiled.csv")
+
+#basic summary
+arthropod_summary <- arthropod_surveys %>% 
+  group_by(site, arthropod_common_name) %>% 
+  summarize(total_count = sum(number))
+  
+  
