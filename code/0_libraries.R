@@ -12,3 +12,7 @@ library(googlesheets4)
 #deal with dates and times
 library(lubridate)
 library(hms)
+
+#spatial
+library(mapview)
+library(sf)
