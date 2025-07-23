@@ -5,10 +5,10 @@ source("code/0_libraries.R")
 #read in Google Sheet with information on trees (species and locations) for arthropod surveys
 survey_trees <- read_sheet("https://docs.google.com/spreadsheets/d/1Srv19FkyvrlMOKrPIIfxB8UuFXuNQoblnqwP8OXjdJU/edit?gid=1506704030#gid=1506704030") 
 
+#summarize by ARU site
 tree_site_summary <- survey_trees %>% 
   group_by(aru_site) %>% 
   count(species_scientific)
-
 
 #Plot sample composition for each survey site (15 trees)
 fig_sampled_trees <- ggplot(data = tree_site_summary, aes(x = aru_site, y = n, fill = species_scientific)) +
