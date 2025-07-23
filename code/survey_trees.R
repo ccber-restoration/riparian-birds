@@ -7,7 +7,9 @@ survey_trees <- read_sheet("https://docs.google.com/spreadsheets/d/1Srv19FkyvrlM
 
 #summarize by ARU site
 tree_site_summary <- survey_trees %>% 
+  #group by aru sites
   group_by(aru_site) %>% 
+  #count how many rows of each species, within each group...
   count(species_scientific)
 
 #Plot sample composition for each survey site (15 trees)
