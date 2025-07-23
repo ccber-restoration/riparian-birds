@@ -16,3 +16,7 @@ library(hms)
 #spatial
 library(mapview)
 library(sf)
+
+#figures
+library(cowplot)
+library(calecopal)
