@@ -50,8 +50,9 @@ Atascadero_2025_07_15 <- read_sheet("https://docs.google.com/spreadsheets/d/1Eeg
 Ellwood_2025_07_16 <- read_sheet("https://docs.google.com/spreadsheets/d/16AniPKMXiikSF75Qs0brzaEdFYLper_64KL1R4mAG8s/edit?gid=0#gid=0") %>% 
   #fill NA values for specific columns based on values above
   fill(Site, aru_site_name, Date, Surveyor, Time_start, Time_stop)
-  
-  
+
+# Round 5 (not entered yet)
+
 point_counts_all <- bind_rows(Ellwood_2025_06_18, 
                               Atascadero_2025_06_19,
                               Ellwood_2025_06_25,
@@ -79,3 +80,16 @@ point_counts_filtered <- point_counts_all %>%
 point_count_summary <- point_counts_filtered %>% 
   group_by(species, site) %>% 
   summarize(n_detections = n())
+
+# quick plot
+
+fig_total_counts <- ggplot(data = point_count_summary, aes(x = n_detections  , y = species, fill = site, color = site)) +
+  geom_point() +
+  theme_cowplot() +
+  xlab("Species") +
+  ylab("Total detections") +
+  scale_x_continuous(limits = c(0,NA))
+  
+fig_total_counts
+
+ggsave("figures/point_counts.png", fig_total_counts)
