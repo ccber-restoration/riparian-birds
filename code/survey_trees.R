@@ -3,7 +3,16 @@
 source("code/0_libraries.R")
 
 #read in Google Sheet with information on trees (species and locations) for arthropod surveys
-survey_trees <- read_sheet("https://docs.google.com/spreadsheets/d/1Srv19FkyvrlMOKrPIIfxB8UuFXuNQoblnqwP8OXjdJU/edit?gid=1506704030#gid=1506704030") 
+survey_trees <- read_sheet("https://docs.google.com/spreadsheets/d/1Srv19FkyvrlMOKrPIIfxB8UuFXuNQoblnqwP8OXjdJU/edit?gid=1506704030#gid=1506704030") %>% 
+  #split aru_site column into two different columns for site and aru number
+  separate_wider_delim(cols = aru_site, names = c("site", "aru"), delim = "_", cols_remove = FALSE) %>% 
+  #put them back together with "-" instead of "_" as the delimiter
+  unite("aru_site_formatted", site, aru, sep = "-", remove = FALSE) %>% 
+  select(-c("site", "aru")) %>% 
+  #creaate new survey_code column, combining aru site, circle niumber, tree id (letter)
+  unite("survey_code", aru_site_formatted, circle, tree_id, sep = "-", remove = FALSE)
+
+
 
 #summarize by ARU site
 tree_site_summary <- survey_trees %>% 
