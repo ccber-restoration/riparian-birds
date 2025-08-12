@@ -25,9 +25,15 @@ arthropods_2_AC <- read_sheet("https://docs.google.com/spreadsheets/d/1qdSLQDAS7
   #fill NA values for specific columns based on values above
   fill(site, date, survey_type, observer, temp_f, site_notes, time, survey_code, leaf_length, number_leaves, herbivory_percent)
 
+arthropods_2_EW <- read_sheet("https://docs.google.com/spreadsheets/d/13ycy1crmJ6GM_YHJehRlkFr1fYcOZNQ8DsPWglM-Wi8/edit?usp=drivesdk") %>% 
+  clean_names() %>% 
+  #fill NA values for specific columns based on values above
+  fill(site, date, survey_type, observer, temp_f, site_notes, time, survey_code, leaf_length, number_leaves, herbivory_percent)
+
 
 
 # round 3 ----
+
 
 # round 4 ----
 
