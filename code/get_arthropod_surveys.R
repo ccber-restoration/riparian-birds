@@ -5,7 +5,7 @@ source("code/0_libraries.R")
 #read in individual sheets (1 per site and round of surveying)
 
 # round 1 ----
-arthropods_1_EW <- read_sheet("https://docs.google.com/spreadsheets/d/11LvIr1BTAlVAseYOcaFbqqcSU8jbIsr6Ugh2mGN4qKg/edit?gid=0#gid=0") %>% 
+R1_EW <- read_sheet("https://docs.google.com/spreadsheets/d/11LvIr1BTAlVAseYOcaFbqqcSU8jbIsr6Ugh2mGN4qKg/edit?gid=0#gid=0") %>% 
   clean_names() %>% 
   #fill NA values for specific columns based on values above
   fill(site, date, survey_type, observer, temp_f, site_notes, time, survey_code, leaf_length, number_leaves, herbivory_percent) %>% 
@@ -13,19 +13,19 @@ arthropods_1_EW <- read_sheet("https://docs.google.com/spreadsheets/d/11LvIr1BTA
   mutate(number_leaves = as.numeric(number_leaves),
          herbivory_percent = as.numeric(herbivory_percent))
 
-arthropods_1_AC <- read_sheet("https://docs.google.com/spreadsheets/d/1dcgOch8yOuFYNgQzJMgnAntAETPNBd0L83tfDUcvXjg/edit?gid=0#gid=0") %>% 
+R1_AC <- read_sheet("https://docs.google.com/spreadsheets/d/1dcgOch8yOuFYNgQzJMgnAntAETPNBd0L83tfDUcvXjg/edit?gid=0#gid=0") %>% 
   clean_names() %>% 
   #fill NA values for specific columns based on values above
   fill(site, date, survey_type, observer, temp_f, site_notes, time, survey_code, leaf_length, number_leaves, herbivory_percent)
 
 
 # round 2 ----
-arthropods_2_AC <- read_sheet("https://docs.google.com/spreadsheets/d/1qdSLQDAS7aV6D8ZUvvYOfGN-D96deh3HJRcLmGx43zk/edit?gid=0#gid=0") %>% 
+R2_AC <- read_sheet("https://docs.google.com/spreadsheets/d/1qdSLQDAS7aV6D8ZUvvYOfGN-D96deh3HJRcLmGx43zk/edit?gid=0#gid=0") %>% 
   clean_names() %>% 
   #fill NA values for specific columns based on values above
   fill(site, date, survey_type, observer, temp_f, site_notes, time, survey_code, leaf_length, number_leaves, herbivory_percent)
 
-arthropods_2_EW <- read_sheet("https://docs.google.com/spreadsheets/d/13ycy1crmJ6GM_YHJehRlkFr1fYcOZNQ8DsPWglM-Wi8/edit?usp=drivesdk") %>% 
+R2_EW <- read_sheet("https://docs.google.com/spreadsheets/d/13ycy1crmJ6GM_YHJehRlkFr1fYcOZNQ8DsPWglM-Wi8/edit?usp=drivesdk") %>% 
   clean_names() %>% 
   #fill NA values for specific columns based on values above
   fill(site, date, survey_type, observer, temp_f, site_notes, time, survey_code, leaf_length, number_leaves, herbivory_percent)
@@ -33,11 +33,38 @@ arthropods_2_EW <- read_sheet("https://docs.google.com/spreadsheets/d/13ycy1crmJ
 
 
 # round 3 ----
+R3_AC <- read_sheet("https://docs.google.com/spreadsheets/d/172N7UQAuOK3_l8qqukiaRqY3EMJMP87m6Pww8y-lW4w/edit?usp=drivesdk") %>% 
+  clean_names() %>% 
+  #fill NA values for specific columns based on values above
+  fill(site, date, survey_type, observer, temp_f, site_notes, time, survey_code, leaf_length, number_leaves, herbivory_percent)
 
+R3_EW <- read_sheet("https://docs.google.com/spreadsheets/d/1b7P7-CEHqYJVjCABV_O2kjwJpxGbbPXiDVTpt3tbpFQ/edit?usp=drivesdk") %>% 
+  clean_names() %>% 
+  #fill NA values for specific columns based on values above
+  fill(site, date, survey_type, observer, temp_f, site_notes, time, survey_code, leaf_length, number_leaves, herbivory_percent)
 
 # round 4 ----
+R4_AC <- read_sheet("https://docs.google.com/spreadsheets/d/1puD2IQhEJ_nsicDhLz2R1UQKRN49-dDBaTTSd4VCzWM/edit?usp=drivesdk") %>% 
+  clean_names() %>% 
+  #fill NA values for specific columns based on values above
+  fill(site, date, survey_type, observer, temp_f, site_notes, time, survey_code, leaf_length, number_leaves, herbivory_percent)
+
+R4_EW <- read_sheet("https://docs.google.com/spreadsheets/d/1pvOXvHncaixcmtX4rDSnO6LXTUkrIkWWw7aHhlfY4V8/edit?usp=drivesdk") %>% 
+  clean_names() %>% 
+  #fill NA values for specific columns based on values above
+  fill(site, date, survey_type, observer, temp_f, site_notes, time, survey_code, leaf_length, number_leaves, herbivory_percent)
 
 # round 5 ----
+R5_AC <- read_sheet("https://docs.google.com/spreadsheets/d/13hW0REjy28RPiVMZW6NT7L4TsS0o2OjZaGuhsTnqyAk/edit?usp=drivesdk") %>% 
+  clean_names() %>% 
+  #fill NA values for specific columns based on values above
+  fill(site, date, survey_type, observer, temp_f, site_notes, time, survey_code, leaf_length, number_leaves, herbivory_percent)
+
+R5_EW <- read_sheet("https://docs.google.com/spreadsheets/d/1i7EHw-oD905TZo1z22S4pe6AX7F2J-oSvLELv5qIAuU/edit?usp=drivesdk") %>% 
+  clean_names() %>% 
+  #fill NA values for specific columns based on values above
+  fill(site, date, survey_type, observer, temp_f, site_notes, time, survey_code, leaf_length, number_leaves, herbivory_percent)
+
 
 #combine data sets
 arthropod_surveys <- bind_rows(arthropods_1_EW, 
