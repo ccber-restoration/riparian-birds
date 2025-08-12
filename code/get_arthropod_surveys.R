@@ -1,10 +1,11 @@
 # Set up ----
 #source script to load packages
-source("code/0_libraries.R")
+source("code/survey_trees.R")
 
+# read in data ----
 #read in individual sheets (1 per site and round of surveying)
 
-# round 1 ----
+## round 1 ----
 R1_EW <- read_sheet("https://docs.google.com/spreadsheets/d/11LvIr1BTAlVAseYOcaFbqqcSU8jbIsr6Ugh2mGN4qKg/edit?gid=0#gid=0") %>% 
   clean_names() %>% 
   #fill NA values for specific columns based on values above
@@ -19,7 +20,7 @@ R1_AC <- read_sheet("https://docs.google.com/spreadsheets/d/1dcgOch8yOuFYNgQzJMg
   fill(site, date, survey_type, observer, temp_f, site_notes, time, survey_code, leaf_length, number_leaves, herbivory_percent)
 
 
-# round 2 ----
+## round 2 ----
 R2_AC <- read_sheet("https://docs.google.com/spreadsheets/d/1qdSLQDAS7aV6D8ZUvvYOfGN-D96deh3HJRcLmGx43zk/edit?gid=0#gid=0") %>% 
   clean_names() %>% 
   #fill NA values for specific columns based on values above
@@ -32,7 +33,7 @@ R2_EW <- read_sheet("https://docs.google.com/spreadsheets/d/13ycy1crmJ6GM_YHJehR
 
 
 
-# round 3 ----
+## round 3 ----
 R3_AC <- read_sheet("https://docs.google.com/spreadsheets/d/172N7UQAuOK3_l8qqukiaRqY3EMJMP87m6Pww8y-lW4w/edit?usp=drivesdk") %>% 
   clean_names() %>% 
   #fill NA values for specific columns based on values above
@@ -43,7 +44,7 @@ R3_EW <- read_sheet("https://docs.google.com/spreadsheets/d/1b7P7-CEHqYJVjCABV_O
   #fill NA values for specific columns based on values above
   fill(site, date, survey_type, observer, temp_f, site_notes, time, survey_code, leaf_length, number_leaves, herbivory_percent)
 
-# round 4 ----
+## round 4 ----
 R4_AC <- read_sheet("https://docs.google.com/spreadsheets/d/1puD2IQhEJ_nsicDhLz2R1UQKRN49-dDBaTTSd4VCzWM/edit?usp=drivesdk") %>% 
   clean_names() %>% 
   #fill NA values for specific columns based on values above
@@ -54,7 +55,7 @@ R4_EW <- read_sheet("https://docs.google.com/spreadsheets/d/1pvOXvHncaixcmtX4rDS
   #fill NA values for specific columns based on values above
   fill(site, date, survey_type, observer, temp_f, site_notes, time, survey_code, leaf_length, number_leaves, herbivory_percent)
 
-# round 5 ----
+## round 5 ----
 R5_AC <- read_sheet("https://docs.google.com/spreadsheets/d/13hW0REjy28RPiVMZW6NT7L4TsS0o2OjZaGuhsTnqyAk/edit?usp=drivesdk") %>% 
   clean_names() %>% 
   #fill NA values for specific columns based on values above
@@ -66,7 +67,7 @@ R5_EW <- read_sheet("https://docs.google.com/spreadsheets/d/1i7EHw-oD905TZo1z22S
   fill(site, date, survey_type, observer, temp_f, site_notes, time, survey_code, leaf_length, number_leaves, herbivory_percent)
 
 
-#combine data sets
+#combine data sets ----
 arthropod_surveys <- bind_rows(R1_EW, 
                                R1_AC,
                                R2_AC,
@@ -76,15 +77,36 @@ arthropod_surveys <- bind_rows(R1_EW,
                                R4_AC,
                                R4_EW,
                                R5_AC,
-                               R5_EW)
+                               R5_EW) %>% 
+  left_join(y = survey_trees, by = join_by(survey_code))
 
 #write to file
 write_csv(arthropod_surveys, "data/arthropod_surveys_compiled.csv")
 
-#basic summary
-arthropod_summary <- arthropod_surveys %>% 
-  group_by(site, arthropod_common_name) %>% 
-  summarize(total_count = sum(number))
 
+
+#basic summary ----
+arthropod_summary <- arthropod_surveys %>% 
+  #use the group by function to group the data by both site and arthropod category
+  group_by(site, arthropod_common_name) %>% 
+  #use the summarize function to create a new column called total_count, 
+  #which is the sum of the numbers, within each of the site*common name combinations
+  summarize(total_count = sum(number)) %>% 
+  ungroup()
+
+  #things to check:
+#non-integer total counts?
+#NA (blank) values for common name
+#NA values for total count
+#this probably requires updating data validation in individual Google Sheets
   
-  
+
+#summarize by tree species ----
+arthropod_summary_by_tree_sp <- arthropod_surveys %>% 
+  #use the group by function to group the data by both site and arthropod category
+  group_by(species_scientific, arthropod_common_name) %>% 
+  #use the summarize function to create a new column called total_count, 
+  #which is the sum of the numbers, within each of the site*common name combinations
+  summarize(total_count = sum(number)) %>% 
+  ungroup()
+
