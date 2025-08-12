@@ -67,8 +67,16 @@ R5_EW <- read_sheet("https://docs.google.com/spreadsheets/d/1i7EHw-oD905TZo1z22S
 
 
 #combine data sets
-arthropod_surveys <- bind_rows(arthropods_1_EW, 
-                               arthropods_1_AC)
+arthropod_surveys <- bind_rows(R1_EW, 
+                               R1_AC,
+                               R2_AC,
+                               R2_EW,
+                               R3_AC,
+                               R3_EW,
+                               R4_AC,
+                               R4_EW,
+                               R5_AC,
+                               R5_EW)
 
 #write to file
 write_csv(arthropod_surveys, "data/arthropod_surveys_compiled.csv")
