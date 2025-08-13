@@ -91,7 +91,8 @@ arthropod_summary <- arthropod_surveys %>%
   group_by(site, arthropod_common_name) %>% 
   #use the summarize function to create a new column called total_count, 
   #which is the sum of the numbers, within each of the site*common name combinations
-  summarize(total_count = sum(number)) %>% 
+  summarize(total_count = sum(number),
+            mean_count = total_count/300) %>% 
   ungroup()
 
   #things to check:
@@ -109,4 +110,26 @@ arthropod_summary_by_tree_sp <- arthropod_surveys %>%
   #which is the sum of the numbers, within each of the site*common name combinations
   summarize(total_count = sum(number)) %>% 
   ungroup()
+#add native vs. nonnative status to trees 
+#separate beetles into adults vs. larvae
+#plotting herbivory level by tree species 
+#update eucalyptus beetle genus names to paropsisterna 
+
+#plot
+fig_arthropods_by_area <- ggplot(data = arthropod_summary, 
+                                aes(x = site, y = mean_count, fill = arthropod_common_name)) +
+  geom_col(position = position_dodge()) +
+  xlab("Survey area") +
+  ylab("count per 50 leaves") +
+  theme_cowplot() +
+  scale_y_continuous(expand = c(0,NA)) +
+  #scale_fill_manual(values = cal_palette("figmtn")) +
+  guides(fill=guide_legend(title="Species")) 
+
+fig_arthropods_by_area
+
+ggsave("figures/Fig_arthropods_by_area_draft.pdf", fig_arthropods_by_area,
+       width = 190, height = 140, units = "mm")
+
+
 
