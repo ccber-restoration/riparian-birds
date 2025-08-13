@@ -15,9 +15,9 @@ library(lubridate)
 library(hms)
 
 #spatial
-library(mapview)
-library(sf)
+#library(mapview)
+#library(sf)
 
 #figures
 library(cowplot)
-library(calecopal)
+#library(calecopal)
