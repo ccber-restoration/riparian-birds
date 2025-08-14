@@ -162,7 +162,7 @@ fig_by_aru <- ggplot(data = point_count_aru_site_summary, aes(x = n_detections,
 
 fig_by_aru
 
-fig_bar_by_aru <- ggplot(data = point_count_aru_site_summary, aes(x = n_detections,
+fig_by_aru_jitter <- ggplot(data = point_count_aru_site_summary, aes(x = n_detections,
                                                               y = species,
                                                               color = site, 
                                                               group = aru_site_name)) +
@@ -173,4 +173,9 @@ fig_bar_by_aru <- ggplot(data = point_count_aru_site_summary, aes(x = n_detectio
   scale_x_continuous(limits = c(0,NA)) +
   theme(legend.position = "bottom")
 
-fig_bar_by_aru
+fig_by_aru_jitter
+
+ggsave("figures/focal_sp_detections_by_point_2025-08-13.pdf", 
+       fig_by_aru_jitter,
+       width = 150,
+       units = "mm")
