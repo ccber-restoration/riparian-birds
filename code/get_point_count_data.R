@@ -5,8 +5,15 @@ source("code/0_libraries.R")
 
 # get species lists ----
 
-#list of focal species 
-focal_sp <- c("Yellow Warbler", "Wilson's Warbler", "Warbling Vireo", "Black-headed Grosbeak", "Purple Finch", "Chestnut-backed Chickadee", "Western Flycatcher")
+#list of focal species, in taxonomic order 
+focal_sp <- c("Western Flycatcher",
+              "Warbling Vireo",
+              "Chestnut-backed Chickadee", 
+              "Purple Finch",
+              "Yellow Warbler", 
+              "Wilson's Warbler", 
+              "Black-headed Grosbeak"
+              )
 
 #read in AOS North America checklist and filter to focal species
 #this ensures they are listed in taxonomic order and gives more taxonomic information (family, scientific name)
@@ -51,8 +58,19 @@ Ellwood_2025_07_16 <- read_sheet("https://docs.google.com/spreadsheets/d/16AniPK
   #fill NA values for specific columns based on values above
   fill(Site, aru_site_name, Date, Surveyor, Time_start, Time_stop)
 
-# Round 5 (not entered yet)
+# Round 5 ----
+Atascadero_2025_07_29 <-  read_sheet("https://docs.google.com/spreadsheets/d/1fy57SYbNKj_Y9YV_mrACQWhktlQ03-_9OSCl_rP2_-U/edit?gid=0#gid=0") %>% 
+  #fill NA values for specific columns based on values above
+  fill(Site, aru_site_name, Date, Surveyor, Time_start, Time_stop)
 
+Ellwood_2025_07_30 <- read_sheet("https://docs.google.com/spreadsheets/d/1n5YLuXa3wOJrPQbNXHT93mZlowy2Dy2j9Md0AnVpiCs/edit?gid=0#gid=0") %>% 
+  #fill NA values for specific columns based on values above
+  fill(Site, aru_site_name, Date, Surveyor, Time_start, Time_stop)
+
+#Round 6 (completing week of 11 August) ----
+
+
+# compile ----
 point_counts_all <- bind_rows(Ellwood_2025_06_18, 
                               Atascadero_2025_06_19,
                               Ellwood_2025_06_25,
@@ -60,7 +78,9 @@ point_counts_all <- bind_rows(Ellwood_2025_06_18,
                               Atascadero_2025_07_01,
                               Ellwood_2025_07_02,
                               Atascadero_2025_07_15,
-                              Ellwood_2025_07_16) %>% 
+                              Ellwood_2025_07_16,
+                              Atascadero_2025_07_29,
+                              Ellwood_2025_07_30) %>% 
   #make column names easier to work with
   clean_names() %>% 
   #extract time of day from the time columns 
@@ -69,7 +89,7 @@ point_counts_all <- bind_rows(Ellwood_2025_06_18,
          time_stop = as_hms(time_stop))
 
 #write to csv
-write_csv(point_counts_all, file = "data/point_counts_compiled.csv")
+write_csv(point_counts_all, file = "data/point_counts_compiled_2025-08-13.csv")
 
 
 #filter by focal species
@@ -79,17 +99,78 @@ point_counts_filtered <- point_counts_all %>%
 #summarize (should make zeros explicit)
 point_count_summary <- point_counts_filtered %>% 
   group_by(species, site) %>% 
-  summarize(n_detections = n())
+  summarize(n_detections = n()) %>% 
+  #complete 0s
+  as_tibble() %>% 
+  #make variables factors
+  mutate_at(c("species", "site"), as.factor) %>% 
+  #complete implicit missing combinations of site & species
+  complete(species,site) %>% 
+  #fill in 0s
+  mutate(n_detections = case_when(
+    is.na(n_detections) ~ 0,
+    .default = n_detections
+  ))
+
 
 # quick plot
 
-fig_total_counts <- ggplot(data = point_count_summary, aes(x = n_detections  , y = species, fill = site, color = site)) +
+fig_total_counts <- ggplot(data = point_count_summary, aes(x = n_detections,
+                                                           y = species ,
+                                                           #fill = site, 
+                                                           color = site)) +
   geom_point() +
   theme_cowplot() +
-  xlab("Species") +
-  ylab("Total detections") +
-  scale_x_continuous(limits = c(0,NA))
+  ylab("Species") +
+  xlab("Total detections") +
+  scale_x_continuous(limits = c(0,NA)) +
+  theme(legend.position = "bottom")
   
 fig_total_counts
 
-ggsave("figures/point_counts.png", fig_total_counts)
+ggsave("figures/point_counts_2025-08-13.pdf", 
+       fig_total_counts,
+       width = 150,
+       units = "mm")
+
+#site summary
+point_count_aru_site_summary <- point_counts_filtered %>% 
+  group_by(site, aru_site_name, species) %>% 
+  summarize(n_detections = n()) %>% 
+  #complete 0s
+  as_tibble() %>% 
+  #make variables factors
+  mutate_at(c("species", "site", "aru_site_name"), as.factor) %>% 
+  #complete implicit missing combinations of site & species
+  complete(species,site, aru_site_name) %>% 
+  mutate(n_detections = case_when(
+    is.na(n_detections) ~ 0,
+    .default = n_detections
+  ))
+
+# make plot!
+fig_by_aru <- ggplot(data = point_count_aru_site_summary, aes(x = n_detections,
+                                                           y = species ,
+                                                           #fill = site, 
+                                                           color = site)) +
+  geom_jitter(width = 0) +
+  theme_cowplot() +
+  ylab("Species") +
+  xlab("Total detections") +
+  scale_x_continuous(limits = c(0,NA)) +
+  theme(legend.position = "bottom")
+
+fig_by_aru
+
+fig_bar_by_aru <- ggplot(data = point_count_aru_site_summary, aes(x = n_detections,
+                                                              y = species,
+                                                              color = site, 
+                                                              group = aru_site_name)) +
+  geom_jitter(width = 0) +
+  theme_cowplot() +
+  ylab("Species") +
+  xlab("Total detections") +
+  scale_x_continuous(limits = c(0,NA)) +
+  theme(legend.position = "bottom")
+
+fig_bar_by_aru
