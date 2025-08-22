@@ -21,3 +21,11 @@ library(hms)
 #figures
 library(cowplot)
 #library(calecopal)
+
+
+# color palette ----
+
+#color palette using publication codes
+colors_native <- c("darkgreen", "tomato")
+
+colors_native_b <- c("#84A6A2", "#BE5A47")
