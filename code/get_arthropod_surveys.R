@@ -132,4 +132,14 @@ ggsave("figures/Fig_arthropods_by_area_draft.pdf", fig_arthropods_by_area,
        width = 190, height = 140, units = "mm")
 
 
+unique(arthropod_surveys$aru_site)
 
+unique(arthropod_surveys$aru_site_formatted)
+
+unique(arthropod_surveys$number)
+
+
+# summarize arthropod abundance by ARU ----
+arthropod_aru_summary <- arthropod_surveys %>% 
+  group_by(aru_site_formatted) %>% 
+  summarize(total_arthropods = sum(number, na.rm = TRUE))
