@@ -92,8 +92,12 @@ arthropod_summary <- arthropod_surveys %>%
   #use the summarize function to create a new column called total_count, 
   #which is the sum of the numbers, within each of the site*common name combinations
   summarize(total_count = sum(number),
-            mean_count = total_count/300) %>% 
-  ungroup()
+            mean_count = total_count/300,
+            occurrences = n()
+            ) %>% 
+  ungroup() %>%
+  filter(!is.na(arthropod_common_name))
+
 
 #things to check:
 #non-integer total counts?
@@ -136,8 +140,8 @@ fig_arthropods_by_area_updated <- ggplot(data = arthropod_summary,
   
 fig_arthropods_by_area_updated
 
-ggsave("figures/Fig_arthropods_by_area_draft.pdf", fig_arthropods_by_area,
-       width = 190, height = 140, units = "mm")
+ggsave("figures/fig_arthropods_by_area_updated.pdf", fig_arthropods_by_area_up,
+       width = 190, height = 200, units = "mm")
 
 
 unique(arthropod_surveys$aru_site)
