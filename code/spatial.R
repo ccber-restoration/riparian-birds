@@ -1,3 +1,6 @@
+library(sf)
+library(mapview)
+
 #read in aru locations
 
 aru_sites <- read_csv(file = "data/aru_sites_2025.csv")
