@@ -140,8 +140,14 @@ fig_arthropods_by_area_updated <- ggplot(data = arthropod_summary,
   
 fig_arthropods_by_area_updated
 
-ggsave("figures/fig_arthropods_by_area_updated.jpg", fig_arthropods_by_area_updated,
-       width = 190, height = 200, units = "mm")
+# save as a tall jpg with today's date at the end of the filename
+ggsave(paste0("figures/fig_arthropods_by_area_updated_",
+              Sys.Date(),
+              ".jpg"),
+       fig_arthropods_by_area_updated,
+       width = 190, 
+       height = 200, 
+       units = "mm")
 
 
 unique(arthropod_surveys$aru_site)
