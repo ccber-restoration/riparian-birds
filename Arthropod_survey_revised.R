@@ -140,7 +140,7 @@ fig_arthropods_by_area_updated <- ggplot(data = arthropod_summary,
   
 fig_arthropods_by_area_updated
 
-ggsave("figures/fig_arthropods_by_area_updated.pdf", fig_arthropods_by_area_up,
+ggsave("figures/fig_arthropods_by_area_updated.jpg", fig_arthropods_by_area_updated,
        width = 190, height = 200, units = "mm")
 
 
